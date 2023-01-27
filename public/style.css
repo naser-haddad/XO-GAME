@@ -1,0 +1,58 @@
+.body {
+    /* background-color: #2d3436; */
+    background-image: image-set(url(images/background-2d3436.png));
+    font-family: 'Exo 2', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(5, 145, 180);
+    background: linear-gradient(45deg, rgb(3, 116, 169) 0%, rgb(155, 7, 145));
+    background-blend-mode: screen;
+}
+.game {
+    width: 255px;
+    text-align: center;
+    font-family: system-ui;
+    color: white;
+    margin: auto;
+    font-weight: 500;
+}
+.title {
+    background-color: rgb(252, 109, 0);
+    padding: 5px 0;
+    margin: 5px 0;
+    width: 250px;
+}
+span {
+    color: rgb(255, 251, 0);
+}
+.square {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(40, 210, 2);
+    float: left;
+    margin: 2px;
+    font-size: 60px;
+    border-radius: 5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.square:hover {
+    background-color: rgb(255, 162, 0);
+    cursor: pointer;
+    transition-duration: 0.6s;
+}
+.button {
+    color: white;
+    background-color: rgb(255, 162, 0);
+    border-radius: 5%;
+    margin-top: 10px;
+    height: 26px;
+    font-family: cursive;
+    width: 50%;
+}
+.button:hover{
+    background-color: rgb(255, 0, 0);
+    cursor: pointer;
+    transition-duration: 0.6s;
+}
